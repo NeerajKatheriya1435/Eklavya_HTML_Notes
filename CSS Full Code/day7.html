@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            /* border: 2px solid red; */
+            height: 40px;
+        }
+
+        .para1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100%; */
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            /* border: 2px solid rgb(114, 250, 123); */
+            background-color: aquamarine;
+            position: relative;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: eklavya;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: 2;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes eklavya {
+            /* from {
+                width: 0px;
+            }
+
+            to {
+                width: 100vw;
+            } */
+
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 0px;
+                left: 500px;
+                background-color: rgba(19, 19, 218, 0.779);
+            }
+
+            50% {
+                top: 500px;
+                left: 500px;
+                background-color: brown;
+                scale: 2;
+            }
+
+            75% {
+                top: 500px;
+                left: 0px;
+                background-color: chartreuse;
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="para1">
+            Eklvaya
+        </p>
+    </div>
+</body>
+
+</html>
