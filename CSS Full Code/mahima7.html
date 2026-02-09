@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            border: 2px solid rebeccapurple;
+            display: none;
+        }
+
+        @media (max-width:500px) {
+            #box1 {
+                text-align: center;
+                display: block;
+                background-color: aqua;
+                height: 30px;
+            }
+        }
+
+        @media (min-width:500px) and (max-width:800px) {
+            #box2 {
+                text-align: center;
+                display: block;
+                background-color: rgb(195, 255, 0);
+                height: 60px;
+                font-size: 34px;
+            }
+        }
+
+        @media (min-width:800px) and (max-width:1200px) {
+            #box3 {
+                text-align: center;
+                display: block;
+                background-color: rgb(52, 38, 179);
+                height: 70px;
+                font-size: 45px;
+            }
+        }
+
+        @media (min-width:1200px) {
+            #box4 {
+                text-align: center;
+                display: block;
+                background-color: rgb(38, 179, 179);
+                height: 90px;
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box" id="box1"> This is My Mobile Screen
+        </div>
+        <div class="box" id="box2">Main ek Tablet Hu</div>
+        <div class="box" id="box3">This is my Computer Screen</div>
+        <div class="box" id="box4">This is my widescreen Computer Screen</div>
+    </div>
+
+</body>
+
+</html>
