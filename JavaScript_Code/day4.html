@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="heading">This is my Heading</h1>
+        <p id="para1">This is Para1</p>
+        <p id="para2">This is Para2</p>
+        Simple Text
+    </div>
+
+    <script>
+        // let button1 = document.getElementById("btn1")
+        // let button2 = document.getElementById("btn2")
+        // button1.addEventListener("click", () => {
+        //     button2.innerText = "Hell I am not good"
+        // })
+        let container1 = document.getElementById("container");
+        // console.log(para.nodeName); // 1 (Element node)
+        // console.log(para.childNodes); // 1 (Element node)
+        // console.log(para.children); // 1 (Element node)
+        // console.log(container1.firstChild); // 1 (Element node)
+        // console.log(container1.firstElementChild); // 1 (Element node)
+        // console.log(container1.lastElementChild); // 1 (Element node)
+        console.log(container1.firstElementChild.nextElementSibling.previousElementSibling.previousElementSibling); // 1 (Element node)
+
+
+    </script>
+</body>
+
+</html>
