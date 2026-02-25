@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container" id="mainBox">
+
+        <h2 class="heading" id="mainHead">This is my main heading</h2>
+        <div class="small" id="another">
+            <p class="para" data-shivam="kuchbhi" id="para1" name="para1my">My para - 1</p>
+            <p class="para" id="para2">My para - 2</p>
+            <p class="para" id="para3">My para - 3</p>
+        </div>
+        <button id="btn" class="Hello python" >Click Me</button>
+    </div>
+    
+    <script>
+        // let element=document.getElementById("another")
+        // console.log(element.matches(".para"))
+        // console.log(element.closest(".container"))
+        // let p1=document.getElementById("para3")
+        // console.log(element.contains(p1))
+        // let b1=document.getElementById("btn")
+        // console.log(b1)
+        // b1.addEventListener("click", function () {
+        // console.log("Mahima Syllabus Finish");
+        // });
+        // b1.innerHTML="Hello Good"
+        // b1.outerHTML="<h2>Hello good i am fine</h2>"
+        // b1.textContent="Hello all fine"
+        // console.log(b1.getAttribute("class"))
+        // console.log(b1.removeAttribute("class"))
+
+        let element=document.getElementById("mainBox")
+        let p1=document.createElement("p")
+        p1.innerHTML="This is my paragraph"
+
+        // element.append(p1)
+        // element.prepend(p1)
+        // element.before(p1)
+        // element.after(p1)
+        element.replaceWith(p1)
+
+    </script>
+</body>
+</html>
