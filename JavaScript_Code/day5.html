@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid salmon;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container" id="cont">
+        <h3 class="myHeading"> My h3 Heading</h3>
+
+        <!-- <ul id="second" class="listItems item34">
+            <li class="item1">Item-1</li>
+            <li class="item2">Item-2</li>
+            <li class="item3">Item-3</li>
+        </ul> -->
+        <button class="seconds" id="second">Click On the button</button>
+
+        <span>This is My Span Tag</span>
+    </div>
+
+    <script>
+        // let var1=document.getElementById("second")
+        // let var2=document.getElementById("cont")
+        // console.log(var1.parentElement)
+        // console.log(var1.children)
+        // console.log(var2.firstElementChild)
+        // console.log(var2.lastElementChild)
+        // console.log(var1.previousElementSibling)
+        // console.log(var1.nextElementSibling)
+        // console.log(var1.matches(".item34"))
+        // console.log(var1.closest(".container"))
+        // var2=document.querySelector(".item1")
+        // console.log(var1.contains(var2))
+        document.getElementById("second").addEventListener("click", () => {
+            alert("Button clicked!");
+            });
+    </script>
+</body>
+</html>

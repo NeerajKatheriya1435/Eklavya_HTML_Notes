@@ -1,0 +1,149 @@
+Introduction to Python
+Variables & Data Types, Operators
+Conditional Statements, Loops
+Functions, Lists, Tuples, Sets, Dictionaries
+Advanced Python, List Comprehension
+Lambda Functions, File Handling
+Exception Handling, OOP Concepts
+Python Libraries
+NumPy (Arrays & Mathematical Operations)
+Pandas (DataFrame Handling)
+Mathematics & Statistics for Data Science
+Mathematics Basics
+Linear Algebra (Vectors, Matrices)
+Matrix Multiplication
+Statistics, Mean, Median, Mode
+Variance & Standard Deviation
+Probability Basics, Normal Distribution
+Data Analysis & Data Wrangling
+Data Cleaning
+Handling Missing Values
+Removing Duplicates
+Data Transformation
+Data Visualization
+Matplotlib, Seaborn
+Bar Chart, Line Chart
+Histogram, Scatter Plot, Heatmap
+Introduction to Machine Learning
+Supervised vs Unsupervised Learning
+Train-Test Split
+Model Evaluation
+Supervised Algorithms
+Linear Regression
+Logistic Regression
+Decision Tree, Random Forest
+Unsupervised Algorithms, K-Means Clustering
+Scikit-learn, SQL & Databases
+What is a database?, Relational databases
+SQL Basics, Tables & keys, SQL Commands
+SELECT, INSERT, UPDATE, DELETE
+WHERE, DISTINCT, ORDER BY, GROUP BY, HAVING
+Joins, INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+Advanced SQL, Subqueries, Views, Indexes
+
+
+
+
+Introduction to Artificial Intelligence
+What is AI?, History of AI
+Types of AI (ANI, AGI, ASI)
+AI vs ML vs Deep Learning
+Applications of AI (Healthcare, Finance, Robotics, Education)
+Real-world examples: Chatbots
+Self-driving Cars, Recommendation Systems
+Mathematics for AI
+Linear Algebra, Vectors, Matrices
+Matrix Operations, Statistics, Probability
+Mean, Variance, Normal Distribution
+Calculus (Basic Idea), Derivatives
+Deep Learning OverView Only
+Neural Networks
+ANN, Activation Functions
+Backpropagation, Advanced Networks, CNN (Image Recognition)
+RNN (Text / Sequence Data),TensorFlow vs Keras vs PyTorch
+Natural Language Processing (NLP)
+Text Cleaning, Tokenization, Stemming & Lemmatization
+Computer Vision, Image Processing Basics
+OpenCV, Face Detection, Object Detection
+AI Deployment & MLOps
+Model Saving & Loading
+Flask / FastAPI, Docker
+Cloud Deployment (AWS / Azure / GCP)
+Generative AI, What is Generative AI?
+Large Language Models (LLM)
+Prompt Engineering, Chatbot Development
+AI Image Generation Concepts
+Projects and Learning
+Movie Recommendation System
+Face Recognition System
+Smart Surveillance System
+
+
+
+2️⃣ Data Preprocessing
+
+StandardScaler
+
+MinMaxScaler
+
+Label Encoding
+
+One-Hot Encoding
+
+Handling Missing Values (SimpleImputer)
+
+3️⃣ Train-Test Split
+
+train_test_split()
+
+Random State concept
+
+4️⃣ Linear Regression
+
+Simple Linear Regression
+
+Multiple Linear Regression
+
+5️⃣ Logistic Regression
+
+Binary Classification
+
+Probability Prediction
+
+6️⃣ Decision Tree
+
+Classification Tree
+
+Regression Tree
+
+7️⃣ Random Forest
+
+Ensemble Learning
+
+Feature Importance
+
+8️⃣ K-Nearest Neighbors (KNN)
+
+Distance calculation
+
+Choosing K value
+
+9️⃣ Support Vector Machine (SVM)
+
+Linear SVM
+
+Kernel Trick
+
+🔟 Naive Bayes
+
+GaussianNB
+
+MultinomialNB
+
+1️⃣1️⃣ Clustering
+
+K-Means
+
+DBSCAN
+
+Hierarchical Clustering
