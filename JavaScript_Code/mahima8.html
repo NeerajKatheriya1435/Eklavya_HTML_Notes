@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading" id="head">
+            Machine Learning Scenario
+        </h1>
+        <section class="sector" id="sect">
+            <p class="para" id="para1">This is my para-1</p>
+            <p class="para" id="para2">This is my para-2</p>
+            <p class="para" id="para3">This is my para-3</p>
+        </section>
+        <button class="btn" id="primary">Click Me</button>
+    </div>
+
+    <script>
+        let h1=document.getElementById("head")
+
+        let b1=document.getElementById("primary")
+
+        b1.addEventListener("click",()=>{
+            h1.innerText="Machine is very good"
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn{
+            margin: 5px;
+            background-color: antiquewhite;
+            border: 2px solid green;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <button class="btn" id="btn1">Decrement</button>
+        <div class="score" id="myScore">78</div>
+        <button class="btn" id="btn2">Increment</button>
+    </div>
+
+    <script>
+        let b1=document.getElementById("btn1")
+        let b2=document.getElementById("btn2")
+        let s2=document.getElementById("myScore")
+
+        let sum=Number(s2.innerText)
+        b2.addEventListener("click",(e)=>{
+            // console.log(sum)
+            console.log(e)
+            sum+=1
+            s2.innerText=sum
+            // console.log("hello")
+        })
+        // b1.addEventListener("mouseenter",()=>{
+        //     // console.log(sum)
+        //     sum-=1
+        //     s2.innerText=sum
+        //     // console.log("hello")
+        // })
+        b1.addEventListener("keydown",(e)=>{
+            console.log(e.key)
+            sum-=1
+            s2.innerText=sum
+            // console.log("hello")
+        })
+    </script>
+</body>
+</html>
